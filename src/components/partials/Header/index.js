@@ -6,7 +6,7 @@ import { HeaderArea } from './styled';
 import { isLogged } from '../../../helpers/AuthHandler';
 
 const Header = () => {
-    let logged = true;//isLogged();
+    let logged = isLogged();
     
     return(
         <HeaderArea>
